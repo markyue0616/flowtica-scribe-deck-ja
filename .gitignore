@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+.workbuddy/
+
+# Unused image directories
+ad-images/
+flowtica-blog-images/
+feature-overview/
+product-closeup/
+scribe-appearance/
+tvc/
