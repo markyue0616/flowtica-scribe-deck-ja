@@ -8,10 +8,36 @@ Thumbs.db
 .idea/
 .workbuddy/
 
-# Unused image directories
-ad-images/
-flowtica-blog-images/
-feature-overview/
-product-closeup/
-scribe-appearance/
-tvc/
+# Unused image directories - exclude everything except needed files
+ad-images/**
+!ad-images/flowmark-highlight/flowmark-highlight-key.jpg
+
+flowtica-blog-images/**
+!flowtica-blog-images/flowtica-ai-pen-product-still-life.webp
+!flowtica-blog-images/flowtica-ai-transcription-cinematic-boardroom.webp
+!flowtica-blog-images/flowtica-scribe-pen-modern-workspace-02.webp
+!flowtica-blog-images/flowtica-scribe-pen-firstperson-pov-01.webp
+
+feature-overview/**
+!feature-overview/iPhone.png
+!feature-overview/scribe-pen-white-with-case-2.webp
+!feature-overview/frame-21452.png
+!feature-overview/eb5b5994-ae29-4cdd-b12f-2e77f98da1b7.png
+!feature-overview/figma-export-01.png
+!feature-overview/group-feature-01.png
+
+product-closeup/**
+!product-closeup/product-closeup-01.webp
+
+scribe-appearance/**
+!scribe-appearance/scribe-pen-11-1.webp
+!scribe-appearance/scribe-pen-black-with-case.webp
+!scribe-appearance/scribe-pen-black-front.webp
+!scribe-appearance/scribe-pen-top-button.webp
+
+tvc/**
+!tvc/asian_male_profile_writing_notebook_laptop_window.jpg
+!tvc/female_writing_leather_notebook_wooden_bg_portrait.jpg
+!tvc/training_writing_foreground_presenter_whiteboard_bg.jpg
+!tvc/doctor_white_coat_pocket_scribe_pen_stethoscope.jpg
+!tvc/person_white_shirt_writing_notebook_dark_table_laptop_bg.jpg
